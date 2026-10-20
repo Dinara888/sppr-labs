@@ -1,0 +1,399 @@
+{
+  "timestamp": "2026-10-20 19:27:41",
+  "results": [
+    {
+      "category": "Математический расчёт",
+      "query": "integrate x^2 sin^3 x dx",
+      "success": true,
+      "interpretation": "",
+      "answer": "integral x^2 sin^3(x) dx = 1/108 (-81 (x^2 - 2) cos(x) + (9 x^2 - 2) cos(3 x) - 6 x (sin(3 x) - 27 sin(x))) + constant",
+      "pods": [
+        {
+          "title": "Indefinite integral",
+          "text": "integral x^2 sin^3(x) dx = 1/108 (-81 (x^2 - 2) cos(x) + (9 x^2 - 2) cos(3 x) - 6 x (sin(3 x) - 27 sin(x))) + constant"
+        },
+        {
+          "title": "Series expansion of the integral at x = 0",
+          "text": "40/27 + x^6/6 - x^8/16 + O(x^9)\n(Taylor series)"
+        }
+      ]
+    },
+    {
+      "category": "Фактологический запрос",
+      "query": "population of Russia 2024",
+      "success": true,
+      "interpretation": "Russia | population | 2024",
+      "answer": "145 million people (2023 projection) (world rank: 9th) (2024 estimate)",
+      "pods": [
+        {
+          "title": "Input interpretation",
+          "text": "Russia | population | 2024"
+        },
+        {
+          "title": "Result",
+          "text": "145 million people (2023 projection) (world rank: 9th) (2024 estimate)"
+        },
+        {
+          "title": "Demographics",
+          "text": "population | 145 million people (2023 projection) (world rank: 9th) (2024 estimate)\npopulation density | 8.84 people/km^2 (people per square kilometer) (world rank: 222nd) (2024 estimate)"
+        },
+        {
+          "title": "Largest cities",
+          "text": "city | population\nMoscow, Central | 13.01 million people\nSaint Petersburg, Admiralteysky | 5.602 million people\nNovosibirsk | 1.634 million people\nYekaterinburg | 1.344 million people\nNizhny Novgorod | 1.213 million people\n(2006, 2010, 2015, 2016, 2017, 2018, 2021, 2023, and 2024 estimates)"
+        },
+        {
+          "title": "Comparisons",
+          "text": "≈ ( 0.019 ≈ 1/54 ) × world population ( 7.795 billion people )\n≈ 0.69 × current population of Brazil ( 209.3 million people )\n≈ 1.4 × current population of Philippines ( 104.9 million people )"
+        }
+      ]
+    },
+    {
+      "category": "Химический расчёт",
+      "query": "molar mass of H2SO4",
+      "success": true,
+      "interpretation": "sulfuric acid | molar mass",
+      "answer": "98.07 g/mol (grams per mole)",
+      "pods": [
+        {
+          "title": "Input interpretation",
+          "text": "sulfuric acid | molar mass"
+        },
+        {
+          "title": "Result",
+          "text": "98.07 g/mol (grams per mole)"
+        },
+        {
+          "title": "Unit conversion",
+          "text": "0.09807 kg/mol (kilograms per mole)"
+        },
+        {
+          "title": "Comparisons as molar mass",
+          "text": "≈ ( 0.14 ≈ 1/7 ) × molar mass of fullerene ( 720.642 g/mol )\n≈ 0.51 × molar mass of caffeine ( 194.191 g/mol )\n≈ 1.7 × molar mass of sodium chloride ( 58.443 g/mol )"
+        },
+        {
+          "title": "Corresponding quantities",
+          "text": "Mass of a molecule m from m = M/N_A:\n | 1.6 × 10^-22 grams\n | 1.6 × 10^-25 kg (kilograms)\n | 98 u (unified atomic mass units)\n | 98 Da (daltons)\nRelative molecular mass M_r from M_r = M_u/M:\n | 98"
+        }
+      ]
+    },
+    {
+      "category": "Физический расчёт",
+      "query": "kinetic energy of 5kg object at 10m/s",
+      "success": true,
+      "interpretation": "kinetic energy | \nmass | 5 kg (kilograms)\nvelocity | 10 m/s (meters per second)",
+      "answer": "kinetic energy | 250 J (joules)\n= 0.06944 W h (watt hours)\n= 1.56 × 10^12 GeV (gigaelectronvolts)",
+      "pods": [
+        {
+          "title": "Input information",
+          "text": "kinetic energy | \nmass | 5 kg (kilograms)\nvelocity | 10 m/s (meters per second)"
+        },
+        {
+          "title": "Result",
+          "text": "kinetic energy | 250 J (joules)\n= 0.06944 W h (watt hours)\n= 1.56 × 10^12 GeV (gigaelectronvolts)"
+        },
+        {
+          "title": "Equation",
+          "text": "K = (m v^2)/2 | \nK | kinetic energy\nm | mass\nv | velocity\n(the energy of an object due to its motion)"
+        }
+      ]
+    },
+    {
+      "category": "Географический запрос",
+      "query": "distance between Moscow and Saint Petersburg",
+      "success": true,
+      "interpretation": "distance | from | Moscow, Tsentralniy, Russia\nto | Saint Petersburg, Admiralteyskiy, Russia",
+      "answer": "636.2 km (kilometers)",
+      "pods": [
+        {
+          "title": "Input interpretation",
+          "text": "distance | from | Moscow, Tsentralniy, Russia\nto | Saint Petersburg, Admiralteyskiy, Russia"
+        },
+        {
+          "title": "Result",
+          "text": "636.2 km (kilometers)"
+        },
+        {
+          "title": "Unit conversions",
+          "text": "395.3 miles\n636.2 km (kilometers)\n636161 meters\n6.362 × 10^7 cm (centimeters)\n343.5 nmi (nautical miles)"
+        },
+        {
+          "title": "Direct travel times",
+          "text": "aircraft (885 km/h) | 43 minutes\nsound | 31 minutes\nlight in fiber | 3 ms (milliseconds)\nlight in vacuum | 2 ms (milliseconds)\n(assuming constant-speed great-circle path)"
+        }
+      ]
+    },
+    {
+      "category": "Финансовый запрос",
+      "query": "100 USD to RUB",
+      "success": true,
+      "interpretation": "convert $100 (US dollars) to Russian rubles",
+      "answer": "8273.93 ₽ (Russian rubles) (19/10/2026)",
+      "pods": [
+        {
+          "title": "Input interpretation",
+          "text": "convert $100 (US dollars) to Russian rubles"
+        },
+        {
+          "title": "Result",
+          "text": "8273.93 ₽ (Russian rubles) (19/10/2026)"
+        },
+        {
+          "title": "Local currency conversion for $100 (US dollars)",
+          "text": "CHF82.36 (Swiss francs) (20/10/2026)"
+        },
+        {
+          "title": "Exchange history for $100 (US dollars)",
+          "text": "1-year minimum | 7084.76 ₽ (28/05/2026 | 5 months ago)\n1-year maximum | 8729.72 ₽ (02/09/2026 | 2 months ago)\n1-year average | 7888.13 ₽ (annualized volatility: 14%)"
+        },
+        {
+          "title": "Additional currency conversions for $100 (US dollars)",
+          "text": "EUR | €89.17 (euros)\nCNY | ￥667.80 (Chinese yuan)\nJPY | ¥15813 (Japanese yen)\nGBP | £74.92 (British pounds)\nCAD | C$140.51 (Canadian dollars)\nMXN | $1852.15 (Mexican pesos)\nGTQ | Q763.90 (Guatemala quetzales)\nCRC | ₡45387.67 (Costa Rican colones)\nHNL | L2682.10 (Honduran lempiras)\nJMD | J$15878.24 (Jamaican dollars)\nXAU | 0.02 oz (gold ounces)\nXAG | 1.76 oz (silver ounces)"
+        }
+      ]
+    },
+    {
+      "category": "Временной запрос",
+      "query": "current time in Kazan",
+      "success": true,
+      "interpretation": "current time in Kazan, Kazan', Russia",
+      "answer": "7:27:14 pm MSK | Tuesday, October 20, 2026",
+      "pods": [
+        {
+          "title": "Input interpretation",
+          "text": "current time in Kazan, Kazan', Russia"
+        },
+        {
+          "title": "Result",
+          "text": "7:27:14 pm MSK | Tuesday, October 20, 2026"
+        },
+        {
+          "title": "Time offset from CEST",
+          "text": "+1 hour"
+        },
+        {
+          "title": "Clocks",
+          "text": "Moscow\n\n7:27:14 pm MSK\nTuesday, October 20 Zürich, Switzerland\n\n6:27:14 pm CEST\nTuesday, October 20"
+        },
+        {
+          "title": "Current Greenwich mean time",
+          "text": "4:27:14 pm GMT | Tuesday, October 20, 2026"
+        }
+      ]
+    },
+    {
+      "category": "Астрономический запрос",
+      "query": "distance to Mars",
+      "success": true,
+      "interpretation": "Mars | distance from Earth",
+      "answer": "1.522 au (astronomical units)",
+      "pods": [
+        {
+          "title": "Input interpretation",
+          "text": "Mars | distance from Earth"
+        },
+        {
+          "title": "Current result",
+          "text": "1.522 au (astronomical units)"
+        },
+        {
+          "title": "Unit conversions",
+          "text": "2.277 × 10^8 km (kilometers)\n2.277 × 10^11 meters\n141.5 million miles"
+        },
+        {
+          "title": "Comparisons as distance",
+          "text": "≈ ( 0.017 ≈ 1/58 ) × smallest distance from the Sun to the heliosheath ( 79 to 100 au )\n≈ 1.5 × mean Earth-Sun distance ( 1.0000010178 au )"
+        },
+        {
+          "title": "Corresponding quantities",
+          "text": "Light travel time t in vacuum from t = x/c:\n | 13 minutes\nLight travel time t in an optical fiber t = 1.48x/c:\n | 19 minutes\nSolar radiation pressure from P = L_☉/(c4πr^2):\n | 2 μPa (micropascals)\n | (assuming solar constant ≈ 1.36 kW/m^2)"
+        },
+        {
+          "title": "Orbital properties",
+          "text": "current distance from Earth | 1.522 au\n12.66 light minutes\naverage distance from Earth | 1.7 au\n14.1 light minutes\ncurrent distance from Sun | 1.582 au\n13.15 light minutes\napoapsis | 2.4922873 × 10^8 km\n1.66599116 au\nperiapsis | 2.06644545 × 10^8 km\n1.38133346 au\norbital period | 1.8808476 a"
+        }
+      ]
+    },
+    {
+      "category": "Медицинский запрос",
+      "query": "body mass index 180cm 75kg",
+      "success": true,
+      "interpretation": "body mass index | \nheight | 180 cm (centimeters)\nbody weight | 75 kg (kilograms)",
+      "answer": "body mass index | 23.15",
+      "pods": [
+        {
+          "title": "Input information",
+          "text": "body mass index | \nheight | 180 cm (centimeters)\nbody weight | 75 kg (kilograms)"
+        },
+        {
+          "title": "Result",
+          "text": "body mass index | 23.15"
+        },
+        {
+          "title": "Equation",
+          "text": "BMI = W/H^2 | \nBMI | body mass index\nH | height\nW | body weight\n(based on Quetelet's formula)"
+        },
+        {
+          "title": "International weight classification",
+          "text": "normal range (18.5-25)"
+        },
+        {
+          "title": "BMI prime",
+          "text": "0.926"
+        },
+        {
+          "title": "Comparison to USA population",
+          "text": "| 95% reference range | percentile rank | z-score | distribution\nheight | (150 to 189) cm (centimeters) | 85.2% | 1.1 | \nweight | (49 to 128) kg (kilograms) | 44.5% | -0.27 | \nbody mass index | (19 to 44) | 22.1% | -0.78 |"
+        }
+      ]
+    },
+    {
+      "category": "Лингвистический запрос",
+      "query": "translate hello to Russian",
+      "success": true,
+      "interpretation": "translate | hello | to Russian",
+      "answer": "(noun) привет | приветствие\nЗдравствуйте",
+      "pods": [
+        {
+          "title": "Input interpretation",
+          "text": "translate | hello | to Russian"
+        },
+        {
+          "title": "Results",
+          "text": "(noun) привет | приветствие\nЗдравствуйте"
+        }
+      ]
+    },
+    {
+      "category": "Решение уравнения",
+      "query": "solve x^2 - 5x + 6 = 0",
+      "success": true,
+      "interpretation": "solve x^2 - 5 x + 6 = 0",
+      "answer": "x = 2\nx = 3",
+      "pods": [
+        {
+          "title": "Input interpretation",
+          "text": "solve x^2 - 5 x + 6 = 0"
+        },
+        {
+          "title": "Results",
+          "text": "x = 2\nx = 3"
+        },
+        {
+          "title": "Sum of roots",
+          "text": "5"
+        },
+        {
+          "title": "Product of roots",
+          "text": "6"
+        }
+      ]
+    },
+    {
+      "category": "Производная",
+      "query": "derivative of x^3 * ln(x)",
+      "success": true,
+      "interpretation": "d/dx(x^3 log(x)) = x^2 (3 log(x) + 1)",
+      "answer": "d/dx(x^3 log(x)) = x^2 (3 log(x) + 1)",
+      "pods": [
+        {
+          "title": "Derivative",
+          "text": "d/dx(x^3 log(x)) = x^2 (3 log(x) + 1)"
+        },
+        {
+          "title": "Expanded form",
+          "text": "x^2 + 3 x^2 log(x)"
+        },
+        {
+          "title": "Root",
+          "text": "x = 1/e^(1/3)"
+        },
+        {
+          "title": "Properties as a real function",
+          "text": "{x element R : x>0} (all positive real numbers)\n{y element R : y>=-3/(2 e^(5/3))}"
+        },
+        {
+          "title": "Indefinite integral",
+          "text": "integral x^2 (1 + 3 log(x)) dx = x^3 log(x) + constant\n(assuming a complex-valued logarithm)"
+        },
+        {
+          "title": "Global minimum",
+          "text": "min{x^2 (3 log(x) + 1)} = -3/(2 e^(5/3)) at x = 1/e^(5/6)"
+        },
+        {
+          "title": "Definite integral",
+          "text": "integral_0^1 x^2 (1 + 3 log(x)) dx = 0"
+        }
+      ]
+    },
+    {
+      "category": "Статистика",
+      "query": "mean and standard deviation of {4, 8, 15, 16, 23, 42}",
+      "success": false,
+      "interpretation": "",
+      "answer": "Wolfram|Alpha не смог интерпретировать запрос",
+      "pods": []
+    },
+    {
+      "category": "Физическая константа",
+      "query": "speed of light in km/s",
+      "success": true,
+      "interpretation": "convert 1 c (speed of light) to kilometers per second",
+      "answer": "299792 km/s (kilometers per second)",
+      "pods": [
+        {
+          "title": "Input interpretation",
+          "text": "convert 1 c (speed of light) to kilometers per second"
+        },
+        {
+          "title": "Result",
+          "text": "299792 km/s (kilometers per second)"
+        },
+        {
+          "title": "Additional conversions",
+          "text": "2.998 × 10^8 m/s (meters per second)\n6.706 × 10^8 mph (miles per hour)"
+        },
+        {
+          "title": "Comparison as speed",
+          "text": "≈ 2.4 × speed of light in diamond ( ≈ 1.24 × 10^8 m/s )"
+        },
+        {
+          "title": "Interpretations",
+          "text": "speed"
+        },
+        {
+          "title": "Basic unit dimensions",
+          "text": "[length] [time]^(-1)"
+        },
+        {
+          "title": "Corresponding quantities",
+          "text": "Time to travel 1 meter from t = d/v:\n | 3.3 ns (nanoseconds)\nTime to travel 1 kilometer from t = d/v:\n | 3.3 μs (microseconds)\nSlowness from s = 1/v:\n | 3.3 × 10^-9 s/m (seconds per meter)"
+        }
+      ]
+    },
+    {
+      "category": "Географический факт",
+      "query": "population of Kazan",
+      "success": true,
+      "interpretation": "Kazan, Kazan', Russia | city population",
+      "answer": "1.244 million people (country rank: 5th) (2018 estimate)",
+      "pods": [
+        {
+          "title": "Input interpretation",
+          "text": "Kazan, Kazan', Russia | city population"
+        },
+        {
+          "title": "Result",
+          "text": "1.244 million people (country rank: 5th) (2018 estimate)"
+        },
+        {
+          "title": "Nearby cities",
+          "text": "Zelenodolsk, Zelenodolsky | 31 km (kilometers) west-northwest | 99216 people\nVolzhsk, Zelenodolsky | 40 km (kilometers) west-northwest | 57621 people\nCheboksary | 125 km (kilometers) west-northwest | 442387 people\nYoshkar-Ola | 126 km (kilometers) northwest | 251416 people\nUlyanovsk | 165 km (kilometers) south-southwest | 617200 people\nNaberezhnye Chelny | 201 km (kilometers) east | 507180 people\n(straight-line distances between city centers)"
+        },
+        {
+          "title": "Comparisons",
+          "text": "≈ 0.58 × total enrollment in the California Community Colleges System ( 2.134 million people )\n≈ 0.87 × current population of Hawaii ( 1.428 million people )\n≈ largest size of the Grande Armée during the Napoleonic Wars ( ≈ 1 million people )"
+        }
+      ]
+    }
+  ]
+}

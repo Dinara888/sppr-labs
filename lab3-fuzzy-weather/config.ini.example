@@ -1,0 +1,13 @@
+[openweathermap]
+; API-ключ с https://home.openweathermap.org/api_keys
+api_key = ВСТАВЬТЕ_СЮДА_КЛЮЧ
+
+[history]
+; Архив суточных данных meteo.ru (ВНИИГМИ-МЦД)
+data_file = data/wr316844.txt
+; Период для расчёта сезонных норм
+year_from = 2015
+year_to = 2024
+
+[output]
+results_dir = results

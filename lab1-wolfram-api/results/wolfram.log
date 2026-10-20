@@ -1,0 +1,32 @@
+2026-10-20 19:26:52,996 [INFO] wolfram.main: Начало работы, запросов: 15
+2026-10-20 19:26:52,996 [INFO] wolfram.client: Запрос (попытка 1): integrate x^2 sin^3 x dx
+2026-10-20 19:26:58,168 [INFO] wolfram.main: Готово: integrate x^2 sin^3 x dx -> success=True
+2026-10-20 19:26:59,171 [INFO] wolfram.client: Запрос (попытка 1): population of Russia 2024
+2026-10-20 19:27:02,243 [INFO] wolfram.main: Готово: population of Russia 2024 -> success=True
+2026-10-20 19:27:03,246 [INFO] wolfram.client: Запрос (попытка 1): molar mass of H2SO4
+2026-10-20 19:27:04,788 [INFO] wolfram.main: Готово: molar mass of H2SO4 -> success=True
+2026-10-20 19:27:05,790 [INFO] wolfram.client: Запрос (попытка 1): kinetic energy of 5kg object at 10m/s
+2026-10-20 19:27:07,203 [INFO] wolfram.main: Готово: kinetic energy of 5kg object at 10m/s -> success=True
+2026-10-20 19:27:08,205 [INFO] wolfram.client: Запрос (попытка 1): distance between Moscow and Saint Petersburg
+2026-10-20 19:27:09,946 [INFO] wolfram.main: Готово: distance between Moscow and Saint Petersburg -> success=True
+2026-10-20 19:27:10,947 [INFO] wolfram.client: Запрос (попытка 1): 100 USD to RUB
+2026-10-20 19:27:12,709 [INFO] wolfram.main: Готово: 100 USD to RUB -> success=True
+2026-10-20 19:27:13,711 [INFO] wolfram.client: Запрос (попытка 1): current time in Kazan
+2026-10-20 19:27:14,772 [INFO] wolfram.main: Готово: current time in Kazan -> success=True
+2026-10-20 19:27:15,773 [INFO] wolfram.client: Запрос (попытка 1): distance to Mars
+2026-10-20 19:27:18,241 [INFO] wolfram.main: Готово: distance to Mars -> success=True
+2026-10-20 19:27:19,241 [INFO] wolfram.client: Запрос (попытка 1): body mass index 180cm 75kg
+2026-10-20 19:27:22,275 [INFO] wolfram.main: Готово: body mass index 180cm 75kg -> success=True
+2026-10-20 19:27:23,280 [INFO] wolfram.client: Запрос (попытка 1): translate hello to Russian
+2026-10-20 19:27:23,943 [INFO] wolfram.main: Готово: translate hello to Russian -> success=True
+2026-10-20 19:27:24,944 [INFO] wolfram.client: Запрос (попытка 1): solve x^2 - 5x + 6 = 0
+2026-10-20 19:27:26,021 [INFO] wolfram.main: Готово: solve x^2 - 5x + 6 = 0 -> success=True
+2026-10-20 19:27:27,023 [INFO] wolfram.client: Запрос (попытка 1): derivative of x^3 * ln(x)
+2026-10-20 19:27:29,460 [INFO] wolfram.main: Готово: derivative of x^3 * ln(x) -> success=True
+2026-10-20 19:27:30,463 [INFO] wolfram.client: Запрос (попытка 1): mean and standard deviation of {4, 8, 15, 16, 23, 42}
+2026-10-20 19:27:35,647 [INFO] wolfram.main: Готово: mean and standard deviation of {4, 8, 15, 16, 23, 42} -> success=False
+2026-10-20 19:27:36,648 [INFO] wolfram.client: Запрос (попытка 1): speed of light in km/s
+2026-10-20 19:27:38,213 [INFO] wolfram.main: Готово: speed of light in km/s -> success=True
+2026-10-20 19:27:39,214 [INFO] wolfram.client: Запрос (попытка 1): population of Kazan
+2026-10-20 19:27:40,869 [INFO] wolfram.main: Готово: population of Kazan -> success=True
+2026-10-20 19:27:41,876 [INFO] wolfram.main: Завершено: успешно 14 из 15

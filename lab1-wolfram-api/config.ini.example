@@ -1,0 +1,13 @@
+[wolfram]
+; Ваш AppID из https://developer.wolframalpha.com/ (кнопка "Get an AppID")
+app_id = ВСТАВЬТЕ_СЮДА_APPID
+; Адрес Full Results API
+api_url = https://api.wolframalpha.com/v2/query
+; Таймаут запроса, секунд
+timeout = 30
+; Пауза между запросами, секунд (чтобы не превысить лимиты)
+delay = 1
+
+[output]
+results_dir = results
+log_file = wolfram.log

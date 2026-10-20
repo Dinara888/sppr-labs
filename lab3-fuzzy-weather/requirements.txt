@@ -1,0 +1,7 @@
+requests
+numpy
+pandas
+matplotlib
+scipy
+networkx
+scikit-fuzzy
